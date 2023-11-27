@@ -1,0 +1,154 @@
+*,
+*::before,
+*::after
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+
+
+
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    color: aqua;
+}
+a:active {
+    text-decoration: dashed;
+    color: greenyellow;
+}
+.wrapper {
+    padding-left: calc(50% - 650px);
+    padding-right: calc(50% - 650px);
+}
+.d-flex {
+    display: flex;
+}
+.ai-c {
+    align-content: space-between;
+}
+.jc-b {
+    justify-content: space-between;
+}
+.jc-e {
+    justify-content: end;
+} 
+header {
+    background: black;
+    padding: 1rem;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-size:120%;
+    gap: 10rem;
+}
+header nav {
+    gap: 1rem;
+}
+.square {
+    background: orangered;
+    height: 40px;
+    width: 60vw;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    background: rgb(222, 212, 212);
+    height: 90vwvh;
+    width: 100vw;
+    display: flex;
+
+}
+.up {
+    background: silver;
+    height: 90px;
+    width: 20vw ;
+    display: grid;
+    align-self: flex-start;
+    justify-self: normal; 
+    font-size: 9px;
+    text-align: right;
+
+}
+.down{
+    background: yellow;
+    height: 250px;
+    width: 20vw;
+    display: flex;
+    align-self: flex-end;
+    justify-self: center;
+    text-align: right;
+    font-size: 210px;
+}
+footer {
+    background: black;
+    padding: 1rem;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    font-size:105%;
+    gap: 1rem;
+    color: white;
+}
+fieldset {
+    margin: 20px;
+    background-color: white;
+    height:487px;
+    width: 20vw;
+    border:1px solid;
+    display: grid;
+    border-radius: 10px;
+    font-size: 40px;
+    text-align: right;
+}
+.middle {
+    margin-bottom: 150px;
+    margin-left: 100px;
+    background: rgb(222, 212, 212);
+    height: 350px;
+    width: 450px;
+    display: grid;
+    align-self: flex-end;
+    justify-self: left;
+}
+.sap {
+    background: rgb(222, 212, 212);
+    height: 35px;
+    width: 30vw;
+    font-size: 20px;
+    font: 30px;
+    
+}
+p {
+    text-align: center;
+}
+#In {
+    margin-left: 15px;
+    margin-bottom: 40px;
+    background: orangered;
+    height: 30px;
+    width: 250px;
+    align-self: flex-end;
+    justify-self: center;
+    border-radius: 10px;
+    color: white;
+}
+.small {
+    margin-left: 10px;
+    background: black;
+    color: white;
+    height: 15px;
+    width: 50px;
+    font-size: 10px;
+}

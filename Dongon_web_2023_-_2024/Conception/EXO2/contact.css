@@ -1,0 +1,53 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: silver;
+}
+h1 {
+    color: red;
+    text-align: center;
+}
+header{
+    background:rgb(201, 223, 167);
+    height: 50px;
+    width: 100vw;
+    display: flex;
+}
+footer{
+    background:rgb(201, 223, 167);
+    height: 50px;
+    width: 100vw;
+    display: flex;
+}
+a:hover {
+    color:blue;
+}
+a:active{
+    color: orangered;
+}
+.container {
+    height: 83vh;
+    width: 90vw;
+    
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+nav
+{
+display: inline-block;
+width: 90vw;
+text-align: left;
+font-size: 20px;
+letter-spacing: 2px;
+}
+nav ul
+{
+list-style-type: none;
+}
+nav li
+{
+display: inline-block;
+margin-right: 15px;
+}

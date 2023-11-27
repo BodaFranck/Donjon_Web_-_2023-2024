@@ -1,0 +1,55 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    background: greenyellow;
+    height: 20px;
+    width: 100vw;
+}
+section {
+    height: 94vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.first {
+    height: 86vh;
+    width: 35vw;
+    display:flex;
+}
+.second {
+    margin-left: 20px;
+    margin-right: 20px;
+    background:rgb(215, 207, 207);
+    height: 86vh;
+    width: 33vw;
+    display: flex;
+    justify-content: center;
+}
+.third {
+    background: rgb(215, 207, 207);
+    height: 86vh;
+    width: 30vw;
+    font-size: 20px;
+    line-height: 30px;
+}
+footer {
+    background: greenyellow;
+    height: 20px;
+    width:100vw;
+}
+.ar {
+    margin-left: 80px;
+    height: 20vh;
+    width: 20vw;
+}
+#button {
+    background: white;
+    height: 50px;
+    width: 30px;
+    align-self:center;
+    justify-self: center;
+
+}

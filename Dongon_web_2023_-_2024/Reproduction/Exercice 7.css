@@ -1,0 +1,20 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+article {
+    background: red;
+    height:200px;
+    width: 290px;
+    display: flex;
+    align-self: flex-end;
+    justify-self: center;
+}
+.first {
+    background: green;
+    height: 50px;
+    width: 30px;
+    display: flex;
+    align-self:center;
+    justify-self: normal;
+}

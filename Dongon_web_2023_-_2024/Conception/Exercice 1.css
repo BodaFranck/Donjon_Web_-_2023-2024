@@ -1,0 +1,43 @@
+body {
+    margin: 0px;
+    padding: 0px;
+} 
+header{
+    margin-bottom: 1px;
+    background: #3498DB;
+    height: 100px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+span {
+    display: flex;
+    align-self: left;
+    justify-content: left;
+    gap: 10px;
+}
+#menu {
+    background: #3498DB;
+    bakground-color: #3498DB; 
+    color: white;
+}
+nav{
+    display: inline-block;
+    text-align: right;
+}
+nav li {
+    display: inline-block;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+    color: red;
+}
+a:active {
+    text-decoration: underline;
+    color: greenyellow;
+}

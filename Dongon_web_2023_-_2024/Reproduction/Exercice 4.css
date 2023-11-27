@@ -1,0 +1,24 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(167, 240, 236);
+    display:grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+p {
+    text-: right;
+}
+th {margin-right: 20px;
+
+    text-align: right;
+}
+fieldset
+{
+    margin-top: 20px;
+    background: whitesmoke;
+    width:93vw;
+    height: 90vh;
+
+}
